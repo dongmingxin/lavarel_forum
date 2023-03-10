@@ -1,18 +1,8 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+function route_class()
 {
-    .
-    .
-    .
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/",
-            "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
-        },
-        "files": [
-            "app/helpers.php"
-        ]
-    },
-    .
-    .
-    .
+    return str_replace('.', '-', Route::currentRouteName());
 }
