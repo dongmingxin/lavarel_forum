@@ -61,7 +61,7 @@
                             </div>
                         </div>
 
-                        <div class="mb-3 row">
+                        <!-- <div class="mb-3 row">
                           <label for="captcha" class="col-md-4 col-form-label text-md-end">验证码</label>
 
                           <div class="col-md-6">
@@ -75,7 +75,7 @@
                               </span>
                             @endif
                           </div>
-                        </div>
+                        </div> -->
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
